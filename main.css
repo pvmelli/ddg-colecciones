@@ -124,6 +124,19 @@ h3 {
 
 .inner-project {
     overflow: hidden;
+    position: relative;
+}
+
+.inner-project .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    opacity: 0;
+    color: rgb(11, 11, 19);
+    text-shadow: -2px -1px 4px white, 2px -1px 4px white, -2px 1px 4px white, 2px 1px 4px white;
+    transition: 0.9s;
 }
 
 .inner-project img {
