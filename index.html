@@ -20,9 +20,9 @@
             <a href="#find-me">Dónde encontrarme</a>
         </div>
         <div id="nav-socials" class="w-1/5">
-            <a class="fa fa-facebook-square"></a>
-            <a class="fa fa-instagram"></a>
-            <a class="fa fa-twitter-square"></a>
+            <a class="fa fa-facebook-square" href="https://www.facebook.com/ddg.colecciones/" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/ddgcolecciones/" target="_blank"></a>
+            <a class="fa fa-twitter-square" href="https://twitter.com/ddgcolecciones" target="_blank"></a>
         </div>
     </header>
     <div id="page-content">
@@ -188,23 +188,27 @@
         <div id="find-me" class="section">
           <div class="section-title">
             <h3>Dónde encontrarme</h3>
-            <a class="fa fa-facebook-square"></a>
-            <a class="fa fa-instagram"></a>
-            <a class="fa fa-twitter-square"></a>
+            <a class="fa fa-facebook-square" href="https://www.facebook.com/ddg.colecciones/" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/ddgcolecciones/" target="_blank"></a>
+            <a class="fa fa-twitter-square" href="https://twitter.com/ddgcolecciones" target="_blank"></a>
           </div>
         <div class="section-content">
 
-          <div id="slideshow-container" class="w3-content w3-display-container" style="max-width:800px">
-            <img class="mySlides" src="https://images.unsplash.com/photo-1593190910242-88fa62201567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" style="width:100%">
-            <img class="mySlides" src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" style="width:100%">
-            <img class="mySlides" src="https://images.unsplash.com/photo-1593190795896-30c0bbd2dab2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" style="width:100%">
-            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-              <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-              <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-              <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          <div id="slideshow-container">
+            <i id="prev-slide" class="fa fa-caret-left slide-arrows"></i>
+            <div id="middle">
+              <div id="slides">
+            <img class="mySlides" src="./src/img/promo_01.png">
+            <img class="mySlides" src="./src/img/promo_02.png">
+            <img class="mySlides" src="./src/img/promo_03.png">
+              </div>  
+            <div id="slide-indicators">
+                <button class="indicator" data-slide="1"></button>
+                <button class="indicator" data-slide="2"></button>
+                <button class="indicator" data-slide="3"></button>
+              </div>  
             </div>
+            <i id="next-slide" class="fa fa-caret-right slide-arrows"></i>
           </div>
 
 
