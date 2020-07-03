@@ -81,6 +81,7 @@ h3 {
     margin: 0;
     text-align: center;
     font-size: 6em;
+    height: 1.5em;
 }
 
 .section-title {
@@ -157,4 +158,8 @@ footer {
     color: white;
     height: 4em;
     padding: 10px 20px 10px 20px;
+}
+
+.not-display {
+    display: none;
 }
