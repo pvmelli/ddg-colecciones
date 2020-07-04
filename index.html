@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>ddg Colecciones</title>
+    <title>DDG Colecciones</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
@@ -15,22 +15,44 @@
 <body>
     <header id="header">
         <div id="nav-links" class="w-2/5">
-            <a href="#about">Sobre mí</a>
+            <a href="#about-cont">Sobre mí</a>
             <a href="#projects">Proyectos</a>
             <a href="#find-me">Dónde encontrarme</a>
         </div>
-        <div id="nav-socials" class="w-1/5">
+        <div id="nav-socials" class="w-1/5 no-md">
             <a class="fa fa-facebook-square" href="https://www.facebook.com/ddg.colecciones/" target="_blank"></a>
             <a class="fa fa-instagram" href="https://www.instagram.com/ddgcolecciones/" target="_blank"></a>
             <a class="fa fa-twitter-square" href="https://twitter.com/ddgcolecciones" target="_blank"></a>
         </div>
     </header>
     <div id="page-content">
+      <div id="about-cont">
         <main id="about">
             <div id="about-container">
             <h1>Diego DDG Gonzalez</h1>
             <h2>Escultor comercial, fundador de ddgcolecciones</h2>
         </main>
+        <div id="about-card" class="w-full lg:flex shadow-lg mob">
+          <div id="h-card-image">
+          </div>
+          <div id="h-card-info">
+            <h3>Diego DDG Gonzalez</h3>
+            <h4>Escultor comercial, fundador de ddg colecciones</h4>
+
+            <p>Trabajo para empresas tanto nacionales como internacionales, generando modelados de piezas originales para su posterior producción y venta masiva.
+              Radicado en Buenos Aires, Argentina.
+            </p>
+            <div class="hashtags px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 font-semibold text-gray-700 mr-2">#escultor</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 font-semibold text-gray-700 mr-2">#internacional</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 font-semibold text-gray-700">#plasticera</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
         <div id="scroller">
             <i class="fa fa-arrow-circle-down"></i>
         </div>
@@ -111,8 +133,8 @@
                       <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#busto</span>
                     </div>
                   </div>
-            </div>
-            <div class="w-full project-row">
+            
+            
                 <div class="card rounded overflow-hidden shadow-lg">
                     <div class="inner-project">
                       <img src="src/img/p_05.jpg">
