@@ -1,4 +1,6 @@
 # Portfolio de ddg-colecciones
+Portfolio de ddgcolecciones, escultor argentino
+
 ## [Live Demo](https://pvmelli.github.io/ddg-colecciones/)
 
 * HTML5
