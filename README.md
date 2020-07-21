@@ -6,5 +6,6 @@ Portfolio de ddgcolecciones, escultor argentino
 * HTML5
 * CSS3 - Responsive
 * Javascript
-* Bootstrap
+* Tailwind
 * FontAwesome
+* GoogleFonts
